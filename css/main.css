@@ -50,9 +50,9 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/background/capa-house-of-cards-2.jpg');
-    height: 870px;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(20,20,20,1) 9%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 100%), url('../img/background/capa-house-of-cards-1.jpg');
+    height: 700px;
+    background-size: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,35 +63,54 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-bottom: 40px;
     font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 22px;
     letter-spacing: 0.05em;
-    width: 600px;
+    width: 700px;
+    line-height: 1.3;
 }
 
 .logo-serie{
     margin-bottom: 20px;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
+.botao-informacoes{
+    background-color: rgba(95, 98, 101, 0.70);
     border: none;
     color: white;
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
     transition: .4s ease all;
 }
 
-.botao:hover{
-    background-color: white;
+.botao-assistir{
+    background-color: rgba(255,255,255,1);
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao-assistir:hover{
+    background-color: #ccd1d1;
     color: black;
 }
 
-.botao i{
+.botao-informacoes:hover{
+    background-color: rgba(255,255,255,0.30);
+}
+
+.botoes i{
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .carrossel-filmes{
@@ -99,10 +118,9 @@ header nav a:hover{
 }
 
 .secoes p{
-    padding: 10px;
+    padding-bottom: 18px;
     font-size: 26px;
     font-weight: bold;
-    margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 20px;
     letter-spacing: 0.05em;
 }
