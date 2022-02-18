@@ -4,9 +4,12 @@
         flex-direction: column;
     }
 
-    .botao{
-        margin-top: 7px;
+    .botoes{
         width: 300px;
+    }
+
+    .botao-informacoes{
+        margin-top: 13px;
     }
 
     .logo-serie img{
@@ -16,6 +19,55 @@
 
     .filme-principal .descricao{
         width: 350px;
+    }
+
+    .filme-principal{
+        font-size: 16px;
+        background: linear-gradient(0deg, rgba(20,20,20,1) 9%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 100%), url('../img/background/capa-house-of-cards-mobile.jpg');
+        height: 700px;
+        background-size: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+
+    .secoes p{
+        padding-bottom: 18px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 20px;
+        letter-spacing: 0.05em;
+    }
+
+    header{
+        margin-bottom: 10px;
+    }
+
+    .filme-principal .descricao{
+        font-size: 17px;
+    }
+
+    .container2{
+        margin-top: 200px;
+    }
+
+    .botao-informacoes{
+        padding: 10px 10px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .botao-assistir{
+        padding: 10px 10px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .botoes i{
+        margin-right: 15px;
+        font-size: 17px;
     }
     
 }
