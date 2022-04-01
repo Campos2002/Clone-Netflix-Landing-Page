@@ -114,7 +114,7 @@ header nav a:hover{
 }
 
 .carrossel-filmes{
-    margin-top: 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 .secoes p{
@@ -123,4 +123,8 @@ header nav a:hover{
     font-weight: bold;
     margin-left: 20px;
     letter-spacing: 0.05em;
+}
+
+.item img{
+    border-radius: 6px;
 }
